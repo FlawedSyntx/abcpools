@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Products and Services</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">ABC Pools</div>
+        <p class="motto">Satisfying all of your pool needs!</p>
+        <div>
+            <ul class="nav-links">
+               <li><a href="index.html#about">About Us</a></li> 
+               <li><a href="#>our-work">Our Work</a></li> 
+               <li><a href="prod-services.html">Products and Services</a></li> 
+               <li><a href="#pricing-inq">Pricing and Inquiry</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">ABC Pools</div>
+        <p>Satisfying all of your pool needs!</p>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About Us</a></li> 
+                <li><a href="#>our-work" onclick="toggleMenu()">Our Work</a></li> 
+                <li><a href="#Products and Services" onclick="toggleMenu()">Products and Services</a></li> 
+                <li><a href="#pricing-inq" onclick="toggleMenu()">Pricing and Inquiry</a></li> 
+            </div>
+        </div>
+    </nav>
+    <p id="collapsible-caption">Click any button below to open the list of offered products, services, or specials!</p>
+    <section class="products-services">
+        <button type="button" class="collapsible">Services</button>
+            <div class="content">
+                <p>Lorem ipsum...</p>
+            </div>
+        <button type="button" class="collapsible">Products</button>
+            <div class="content">
+                <p>Lorem ipsum...</p>
+            </div>
+        <button type="button" class="collapsible">Specials</button>
+            <div class="content">
+                <p>Lorem ipsum...</p>
+            </div>
+
+    </section>
+    <footer>
+        <div class="socials-ps">
+            <ul class="socials-ps">
+                <li id="phone-1"><img id="phone-icon" src="assets\phone-icon.png"></img> #1: (919) 426-4335</li>
+                <li id="phone-2"><img id="phone-icon" src="assets\phone-icon.png"></img> #2: (252) 459-3854</li>
+                <li>PO Box: 357 Castalia, NC 27816</li>
+                <li id="email"><a href="mailto:abcpools@embarqmail.com"><img id="email-icon" src="assets\icons8-email-50.png"> abcpools@embarqmail.com</img></a></li>
+                <li id="facebook"><a href="https://www.facebook.com/ABCPoolsNC"><img id="facebook-icon" src="assets\facebook-icon.png"> www.facebook.com/ABCPoolsNC</img></a></li>
+            </ul>
+        </div>
+        <p id="copyright-ps">Copyright &#169; 2024 ABC Pools NC - Website developed by Christopher Roan.</p>
+    </footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+    </script>
+    
+</body>
+</html>
