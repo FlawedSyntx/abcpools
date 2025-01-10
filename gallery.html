@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery-style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Our Work</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">ABC Pools</div>
+        <p class="motto">Satisfying all of your pool needs!</p>
+        <div>
+            <ul class="nav-links">
+               <li><a href="index.html#about">About Us</a></li> 
+               <li><a href="gallery.html">Our Work</a></li> 
+               <li><a href="prod-services.html">Products and Services</a></li> 
+               <li><a href="#pricing-inq">Pricing and Inquiry</a></li> 
+            </ul>
+        </div>
+    </nav>
+    <div class='slider-container'>
+        <div class='img background-img'></div>
+        <div class='img foreground-img'></div>
+      </div>
+    <script>
+        
+        $("#slider").on("input change", (e)=>{
+        const sliderPos = e.target.value;
+        // Update the width of the foreground image
+        $('.foreground-img').css('width', `${sliderPos}%`)
+        });
+    </script>
+</body>
+</html>
