@@ -85,8 +85,10 @@ a:hover {
 }
 
 #copyright {
-    position: sticky;
     bottom: 0;
+    display: flex;
+    text-align: center;
+    width: 100vw;
 }
 #copyright-ps {
     position: sticky;
@@ -131,6 +133,7 @@ nav {
     align-items: center;
     height: 17vh;
     margin-top: 0;
+    margin-bottom: 2rem;
 }
             
 #footer-nav {
@@ -139,7 +142,7 @@ nav {
 }
             
 #footer-nav .socials {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 #email {
@@ -177,12 +180,14 @@ nav {
   }
 
 #image-gallery {
-    background-color: rgb(77, 76, 76);
+    background-color: rgb(255, 255, 255);
 }
 
   .container {
-    scale: .65;
-  }
+    scale: .50;
+    height: 0vh;
+    margin-bottom: 700px;
+}
   
   /* Next & previous buttons */
   .prev,
@@ -192,13 +197,13 @@ nav {
     top: 40%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+    margin-top: 500px;
     color: white;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    scale: 2;
   }
   
   /* Position the "next button" to the right */
@@ -220,6 +225,7 @@ nav {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    margin-left: 3rem;
   }
   
 /* Container for image text */
@@ -255,5 +261,10 @@ nav {
 
   #bottom-caption {
     font-size: 3rem;   
-    color: white; 
+    text-align: center;
+    color: black; 
+  }
+
+  #bottom-caption a {
+    color: dark gray;
   }
