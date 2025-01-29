@@ -35,6 +35,10 @@
         border-radius: 5%; /* Smaller border radius */
     }
 
+    #BBB-quote {
+        font-size: .75rem;
+    }
+
     .about p {
         margin-top: 0.5rem; /* Adjust margins */
         margin-bottom: 0.5rem;
