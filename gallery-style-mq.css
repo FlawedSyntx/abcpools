@@ -1,0 +1,110 @@
+/* Mobile Media Queries */
+@media only screen and (max-width: 768px) {
+    /* General Adjustments */
+    body {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+
+    #main-content {
+        background-size: cover; /* Ensure the background image covers the entire screen */
+    }
+
+    /* Navigation Adjustments */
+    nav {
+        flex-direction: column; /* Stack nav items vertically */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 1rem 0; /* Add some padding */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack nav links vertically */
+        gap: 1rem; /* Reduce gap between links */
+        font-size: 1rem; /* Smaller font size for nav links */
+    }
+
+    .logo {
+        font-size: 1.5rem; /* Smaller logo size */
+        margin-top: 1rem; /* Adjust margin */
+    }
+
+    .motto {
+        font-size: 1rem; /* Smaller font size for motto */
+    }
+
+    /* About Section Adjustments */
+    #about {
+        width: 90%; /* Make the about section take up more width */
+        font-size: 1rem; /* Smaller font size */
+        padding: 0.5rem; /* Reduce padding */
+        border-radius: 5%; /* Smaller border radius */
+    }
+
+    .about p {
+        margin-top: 0.5rem; /* Adjust margins */
+        margin-bottom: 0.5rem;
+    }
+
+    #about-p-1, #about-p-2 {
+        margin-bottom: 1rem; /* Adjust margins */
+    }
+
+    /* Footer Adjustments */
+    #footer-nav {
+        flex-direction: column; /* Stack footer items vertically */
+        align-items: center; /* Center align items */
+    }
+
+    #footer-nav .socials {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 1rem; /* Add top margin */
+    }
+
+    #copyright {
+        font-size: 0.8rem; /* Smaller font size for copyright */
+    }
+
+    #copyright-ps {
+        padding-top: 5rem; /* Reduce padding */
+    }
+
+    /* Gallery Adjustments */
+    .container {
+        scale: 1; /* Reset scale for mobile */
+        height: auto; /* Allow height to adjust based on content */
+        margin-bottom: 2rem; /* Reduce margin */
+    }
+
+    .prev, .next {
+        top: 30%; /* Adjust position of navigation buttons */
+        margin-top: 0; /* Remove margin */
+        scale: 1; /* Reset scale for mobile */
+        font-size: 16px; /* Smaller font size for buttons */
+    }
+
+    .numbertext {
+        font-size: 10px; /* Smaller font size for number text */
+        margin-left: 1rem; /* Adjust margin */
+    }
+
+    .caption-container {
+        font-size: 1rem; /* Smaller font size for captions */
+    }
+
+    .column {
+        width: 33.33%; /* Adjust column width for mobile */
+    }
+
+    #bottom-caption {
+        font-size: 1.5rem; /* Smaller font size for bottom caption */
+    }
+
+    /* Banner Adjustments */
+    .pool-banner {
+        height: 20vh; /* Reduce banner height */
+    }
+
+    /* Icon Adjustments */
+    #phone-icon, #email-icon, #facebook-icon {
+        height: 0.8rem; /* Smaller icons */
+    }
+}

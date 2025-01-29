@@ -87,11 +87,9 @@ a:hover {
 }
 
 #copyright {
-    position: sticky;
     bottom: 0;
 }
 #copyright-ps {
-    position: sticky;
     bottom: 0;
     text-align: center;
     padding-top: 10rem;
@@ -121,7 +119,7 @@ nav, .nav-links {
     margin-bottom: .5rem;
     font-size: 2.5rem;
     text-decoration: none;
-    font-style: italic;
+    font-style: oblique 40deg;
 }
             
 nav {
