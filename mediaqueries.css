@@ -14,6 +14,8 @@
         flex-direction: column; /* Stack nav items vertically */
         height: auto; /* Allow height to adjust based on content */
         padding: 1rem 0; /* Add some padding */
+        background-color: #ffffffd0 !important;
+
     }
 
     .nav-links {
@@ -93,5 +95,19 @@
     /* Icon Adjustments */
     #phone-icon, #email-icon, #facebook-icon {
         height: 0.8rem; /* Smaller icons */
+    }
+
+    .logo-img {
+        height: 50px;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }

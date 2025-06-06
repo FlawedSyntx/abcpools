@@ -15,6 +15,19 @@
         height: auto; /* Allow height to adjust based on content */
         padding: 1rem 0; /* Add some padding */
     }
+    .logo-img {
+        height: 50px;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
     .nav-links {
         flex-direction: column; /* Stack nav links vertically */

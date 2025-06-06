@@ -115,12 +115,16 @@ nav, .nav-links {
     font-size: 1.1rem;
 }
 
-.logo {
-    margin-top: 1.5rem;
-    margin-bottom: .5rem;
-    font-size: 2.5rem;
-    text-decoration: none;
-    font-style: oblique 40deg;
+.logo-img {
+    height: 80px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-style: oblique;
 }
             
 nav {
@@ -128,6 +132,7 @@ nav {
     align-items: center;
     height: 17vh;
     margin-top: 0;
+    background-color: #ffffffd0 !important;
 }
             
 #footer-nav {

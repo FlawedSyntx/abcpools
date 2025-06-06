@@ -132,7 +132,18 @@ nav {
     align-items: center;
     height: 17vh;
     margin-top: 0;
-    margin-bottom: 2rem;
+    background-color: #ffffffd0 !important;
+}
+.logo-img {
+    height: 80px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-style: oblique;
 }
             
 #footer-nav {
